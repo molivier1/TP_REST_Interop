@@ -4,6 +4,8 @@ public class Weather {
     private Integer id;
     private Main main;
 
+    private String description;
+
     public Integer getId() {
         return id;
     }
@@ -18,5 +20,13 @@ public class Weather {
 
     public void setMain(Main main) {
         this.main = main;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
